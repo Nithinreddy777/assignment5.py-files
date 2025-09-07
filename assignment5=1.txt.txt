@@ -1,0 +1,6 @@
+students={'nithin':99,'john':60,'brad_pitt':36,'tom':98}
+name=input('enter the student name: ')
+if name in students:
+    print(name,"marks",students[name])
+else:
+    print('the student is  not found')
